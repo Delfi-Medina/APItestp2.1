@@ -83,7 +83,7 @@ app.delete("/api/personas/:id", async (req, res) => {
       res.status(500).json({ error: 'Error al eliminar persona' });
     }
   });
-
+//comentario para el commit 3
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT,() => {
     console.log(`Servidor APP corriendo en puerto ${PORT}`)
